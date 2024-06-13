@@ -1,0 +1,8 @@
+*{
+    font-family: cairo;
+}
+
+.full-width-img {
+    width: 100%;
+    height: 420px;
+}

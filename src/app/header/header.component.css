@@ -1,0 +1,24 @@
+.custom-navbar-height {
+    height: 80px; /* Set your desired height here */
+  }
+
+  .search-box {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  .search-box .form-control {
+    border-radius: 13px;
+    box-shadow: none;
+  }
+  .search-box .btn {
+    border-radius: 13px;
+    background-color: #5a31f4;
+    border: none;
+  }
+  .search-box .btn:hover {
+    background-color: #4324b1;
+  }
+  .search-box .btn i {
+    font-size: 1.25rem;
+  }

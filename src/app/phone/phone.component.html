@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-sm-8" *ngFor="let items of phone">
+            <div class="card mt-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img [src]="items.img" alt="" width="150" height="150">
+                        </div>
+
+                        <div class="col-sm-9">
+                            <h5 class="alert" style="background-color: #5a31f4; color: white;">{{items.title}}</h5>
+                            <strong style="display: block;">{{items.name}}</strong>
+                            <strong class="badge bg-danger">Price: {{items.price}}</strong>
+                            <div class="col">
+                                <a class="btn btn-primary mt-3" [routerLink]="['/details',items.id]">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
